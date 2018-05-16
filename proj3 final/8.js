@@ -1,0 +1,1 @@
+db.items.insert( {_id: "88888888",Name: "WilmerFlores",Category: ["Best","Ever"],Bids: 0}) 

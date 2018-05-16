@@ -1,0 +1,1 @@
+db.items.aggregate([{$group:{_id: "_id", First_Bid_avg: {$avg: "$First_Bid"}}}]);

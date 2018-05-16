@@ -1,0 +1,1 @@
+db.items.update({ _id: "1678348584" },{$set:{ "Bids" :{ "Bid": 	{ "Bidder":	{ "_id": "Goldschmidt", "_Rating": 10, "Location": "Scottsdale, AZ", "Country": "USA" 	}, "Amount": 1000.00 	}}	}, $inc: {  Number_of_Bids: 1} 	})
